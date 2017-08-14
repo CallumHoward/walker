@@ -5,7 +5,7 @@ With the following Zsh function, it works as a fuzzy cd.
 ```zsh
 # cf - fuzzy cd
 function cf() {
-    local bin=~/.cargo/bin/exa
+    local bin=`which exa`
     if ! [ -x $bin ]; then bin = ls; fi
     if [ "$1" != "" ]; then cd $1; fi
     local dir=`walker | rg -v "/\.|\.dSYM|\.xcodeproj|build|bin|ctc|^$" | sk`
