@@ -1,0 +1,7 @@
+[package]
+name = "walker"
+version = "0.1.0"
+authors = ["CallumHoward <callumh@cse.unsw.edu.au>"]
+
+[dependencies]
+ignore="0.2"
