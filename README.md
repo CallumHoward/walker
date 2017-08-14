@@ -18,12 +18,12 @@ function cf() {
 Using this utility is much faster for this than using `find -type d`. Directories are walked in parallel, and it works fast enough to be usable from my home directory.
 
 ## Dependencies
-Dependencies for the above zsh function:
-[skim](https://github.com/lotabout/skim)
-[ripgrep](https://github.com/BurntSushi/ripgrep)
-[exa](https://github.com/ogham/exa) (optional)
+Dependencies for the above zsh function:  
+- [skim](https://github.com/lotabout/skim)  
+- [ripgrep](https://github.com/BurntSushi/ripgrep)  
+- [exa](https://github.com/ogham/exa) (optional)  
 
 
 ## Install
-Build from source with `cargo build --release`.
+Build from source with `cargo build --release`.  
 Copy binary into a location in your path.
